@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>SCode Editor - SayHi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+    <script src="https://unpkg.com/blockly/blocks_compressed.js"></script>
+    <script src="https://unpkg.com/blockly/javascript_compressed.js"></script>
+</head>
+<body>
+    <div id="header">SCode Editor</div>
+    <div id="main-container">
+        <div id="blocklyDiv"></div>
+        <div id="stage">
+            <button onclick="runCode()" id="runBtn">Chạy lệnh ▶</button>
+            <div id="console-output">Kết quả sẽ hiển thị ở đây...</div>
+        </div>
+    </div>
 
+    <script src="main.js"></script>
+</body>
+</html>
