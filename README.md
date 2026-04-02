@@ -1,2 +1,3 @@
 # SCode
 SCode is a website where you can coding by "blocks" like Scratch by MIT. This website may have somethings trouble or bug. I use Gemini for somethings...
+Example Website (not by me): https://kcode.io/
